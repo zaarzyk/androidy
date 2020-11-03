@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<!--pole edytowalne wyświetla hasło, edytowalne żeby np. można było kopiować hasło-->
+    <EditText
+        android:id="@+id/wyswietlaczgorny"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_marginBottom="1pt"
+        android:layout_weight="1"
+        android:background="@color/bialy"
+        android:ems="10"
+        android:gravity="right"
+        android:inputType="textPersonName"
+        android:text="Tu będzie haslo"
+        android:textSize="16pt" />
+
+<!--wyswietlacz długosci hasła-->
+    <TextView
+        android:id="@+id/wyswietlaczdolny"
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:layout_marginBottom="1pt"
+        android:layout_weight="1"
+        android:background="@color/bialy"
+        android:ems="10"
+        android:gravity="right"
+        android:inputType="textPersonName"
+        android:text="Dlugosc hasla"
+        android:textSize="20pt" />
+
+
+<!--pasek/suwak maksymalna wartosc to 20 minimalna to 5-->
+    <SeekBar
+        android:id="@+id/suwak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:max="20"
+        android:min="5"
+        />
+<!--przycisk po kliknieciu wywoluje metode generator-->
+    <Button
+        android:id="@+id/generuj"
+        android:layout_width="match_parent"
+        android:layout_height="30pt"
+        android:layout_marginRight="0pt"
+        android:layout_weight="1"
+        android:background="@color/czerwony"
+          android:onClick="generator"
+        android:text="Generuj"></Button>
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+

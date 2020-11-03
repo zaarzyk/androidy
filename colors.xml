@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    definiowanie kolorów-->
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#1C9821</color>
+    <color name="bialy">#FFFFFF</color>
+    <color name="czerwony">#FF1100</color>
+    <color name="colorAccent">#FF1100</color>
+</resources>
